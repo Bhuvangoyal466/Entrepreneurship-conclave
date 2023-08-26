@@ -1,0 +1,472 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #252422;
+}
+.navbar {
+    height: 5.5rem;
+    width: 100%;
+    background-color: black;
+    color: #f29bab;
+    font-weight: 900;
+    font-size: 1.8rem;
+    word-spacing: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.navbar:hover {
+    box-shadow: 1px 1px 4px white;
+    transition-duration: 0.5s;
+}
+.event-logo {
+    height: 5rem;
+    width: 10%;
+    background-image: url(event_logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.abc {
+    background-image: url(ceed_logo.png);
+}
+.chitkara {
+    height: 5rem;
+    width: 10%;
+    background-image: url(chitkara_university_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ceed {
+    height: 5rem;
+    width: 10%;
+    background-image: url(ceed_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner {
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+    height: 30rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.619);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    flex-direction: column;
+}
+.banner:hover {
+    box-shadow: 1px 1px 4px white;
+    transition-duration: 0.5s;
+}
+.chit {
+    height: 6rem;
+    width: 10%;
+    background-image: url(chitkara_university_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cee {
+    height: 6rem;
+    width: 10%;
+    background-image: url(ceed_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner-content {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2ec4b6;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.menu {
+    margin-left: 20rem;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.2);
+}
+.about-ceed p {
+    color: white;
+    margin: auto;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    width: 90%;
+    font-weight: 700;
+    opacity: 0;
+    transition: opacity 2s linear; /* Add a smooth transition */
+}
+.about-ceed {
+    margin-bottom: 5rem;
+}
+.one {
+    text-align: center;
+}
+.content {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #bde0fe;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Pacifico", cursive;
+}
+.logo {
+    height: 10rem;
+    width: 50%;
+    margin-top: 2rem;
+}
+.logo img {
+    height: 10rem;
+    width: 28%;
+}
+.startup {
+    color: white;
+    margin-left: 5rem;
+}
+.heading {
+    color: white;
+    font-family: "Pacifico", cursive;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+.startup-content p {
+    line-height: 2rem;
+    letter-spacing: 1px;
+    width: 50%;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 3rem;
+    opacity: 0;
+    transition: opacity 2s linear; /* Add a smooth transition */
+}
+.startup-content img {
+    margin-left: 10rem;
+    height: 18rem;
+    width: 25rem;
+    border-radius: 2rem;
+}
+.pre-startup-era {
+    position: relative;
+    margin: 0 auto;
+    height: 30rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    border-radius: 3rem;
+    transition: opacity 3s linear; /* Add a smooth transition */
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px white;
+}
+
+.pre-back {
+    border-radius: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(pre\ startup\ era.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+}
+.pre-startup-era-content {
+    padding: 2rem;
+    z-index: 1;
+    position: relative;
+    color: white;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+}
+.pre-heading {
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+}
+.rise-of-startups-heading {
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+}
+.rise-of-startups {
+    position: relative;
+    margin: 0 auto;
+    height: 30rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px white;
+    opacity: 0;
+    transition: opacity 3s linear; /* Add a smooth transition */
+}
+
+.rise-back {
+    border-radius: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(jamshedji\ tata.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+}
+.rise-of-startups-content {
+    padding: 2rem;
+    z-index: 1;
+    position: relative;
+    color: white;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+}
+.ratan-tata-heading {
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+}
+.ratan-tata-back {
+    border-radius: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(ratan\ tata.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+}
+.ratan-tata {
+    position: relative;
+    margin: 0 auto;
+    height: 30rem;
+    width: 80%;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px white;
+    opacity: 0;
+    transition: opacity 3s linear; /* Add a smooth transition */
+}
+.ratan-tata-content {
+    padding: 2rem;
+    z-index: 1;
+    position: relative;
+    color: white;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+}
+.mukesh-ambani-back {
+    border-radius: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(mukesh\ ambani.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+}
+.mukesh-ambani {
+    position: relative;
+    margin: 0 auto;
+    height: 30rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 3s linear; /* Add a smooth transition */
+    border-radius: 3rem;
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px white;
+}
+.mukesh-ambani-content {
+    padding: 2rem;
+    z-index: 1;
+    position: relative;
+    color: white;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+}
+.SHE-heading {
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+}
+.she-back {
+    border-radius: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(collage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: -1;
+}
+.ghazal-content {
+    padding: 2rem;
+    z-index: 1;
+    position: relative;
+    color: white;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+}
+.era-SHE-preneurs {
+    position: relative;
+    margin: 0 auto;
+    height: 25rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    border-radius: 3rem;
+    transition: opacity 3s linear; /* Add a smooth transition */
+
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px white;
+}
+.silicon-heading {
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+}
+.silicon-symphony {
+    position: relative;
+    margin: 0 auto;
+    height: 25rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 3s linear; /* Add a smooth transition */
+    border-radius: 3rem;
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px white;
+}
+.silicon-symphony-back {
+    border-radius: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(global.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: -1;
+}
+.silicon-content {
+    padding: 2rem;
+    z-index: 1;
+    position: relative;
+    color: white;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+}
+.sponsors {
+    margin-top: 4rem;
+    height: 25rem;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tiles {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tile {
+    height: 8rem;
+    width: 10rem;
+    background-color: rgb(113, 113, 113);
+    margin: 3rem;
+}
+.copyright {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    height: 4rem;
+    width: 100%;
+    background-color: black;
+    font-size: 0.8rem;
+}
